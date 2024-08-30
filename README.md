@@ -1,0 +1,1 @@
+This server-side API endpoint receives a webhook containing a single string of data. It converts the string into an array of characters, ordered alphabetically, and returns the array as a word.
