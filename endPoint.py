@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/sort-string', methods=['POST'])
 def sort_string():
@@ -9,5 +9,5 @@ def sort_string():
     array_of_characters.sort()
     return jsonify({'word': array_of_characters})
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
