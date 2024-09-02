@@ -16,5 +16,5 @@ def sort():
 
 
 # Uncomment the below if you want to run tests locally 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
