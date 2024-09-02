@@ -15,6 +15,6 @@ def sort():
     return jsonify({'word': array_of_characters})
 
 
-# Uncommen the below if you want to run tests locally 
+# Uncomment the below if you want to run tests locally 
 # if __name__ == '__main__':
 #     app.run(debug=True)
